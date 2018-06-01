@@ -7,7 +7,7 @@ client.on('ready', () => {
   
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('lol');}
+    	message.reply('pong');}
      bot.user.setgame("Clash of clans");
 });
 
