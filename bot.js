@@ -4,7 +4,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('I am ready!');
 });
-bot.user.setgame("clash of clans"); 
+ bot.user.setgame("clash of clans"); 
 
 client.on('message', message => {
     if (message.content === 'ping') {
