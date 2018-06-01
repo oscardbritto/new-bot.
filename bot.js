@@ -3,13 +3,12 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-bot.user.setgame("clash of clans");
 });
   
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
+    	message.reply('pong');}
+    bot.user.setgame("clash of clans");
 });
 
 // THIS  MUST  BE  THIS  WAY
